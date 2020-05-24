@@ -1,0 +1,154 @@
+body {
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-family: 'Exo 2', sans-serif;
+}
+
+.container {
+	max-width:1200px;
+	width:1200px;
+
+	
+}
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+/* styles for validation helpers */
+.field-validation-error {
+    color: #b94a48;
+}
+
+.field-validation-valid {
+    display: none;
+}
+
+input.input-validation-error {
+    border: 1px solid #b94a48;
+}
+
+input[type="checkbox"].input-validation-error {
+    border: 0 none;
+}
+
+.validation-summary-errors {
+    color: #b94a48;
+}
+
+.validation-summary-valid {
+    display: none;
+}
+.images {
+    width:1200px;
+    height:200px;
+    display:flex;
+    justify-content: space-between;
+}
+						/* Ќастраиваем страницу со стать€ми*/
+
+.blog_page a {
+	padding:5px;
+	color:white;
+	background-color:orange;
+	text-transform:uppercase;
+	text-decoration:none;
+	font-weight:700;
+}
+
+.blog_page h2 {
+	font-weight:700;
+}
+
+.blog_page h4 {
+	font-weight: 200;
+	font-size:12px;
+}
+
+.blog_page p {
+	font-weight: 400;
+	font-size: 14px;
+}
+
+.title_page h2 {
+	font-size:24px;
+	font-weight:200;
+}
+
+/* страница с видео*/
+
+.video_page div {
+	display:flex;
+	justify-content:space-between;
+}
+.container h1 {
+	font-weight:700;
+	margin:0;
+	margin-top:25px;
+	margin-bottom:25px;
+}
+.video_page video {
+	margin:0;
+	padding:0;
+}
+
+.videos {
+	margin:0;
+}
+.about p {
+
+	font-size:24px;
+	font-weight:400;
+}
+
+.about h1 {
+	font-size: 36px;
+	font-weight: 800;
+}
+
+.address  {
+	font-size: 24px;
+	font-weight:800;
+}
+
+.client1 p {
+	width:293px;
+}
+.client2 p {
+	width: 293px;
+}
+.client3 p {
+	width: 293px;
+}
+
+.comments h5 {
+	color:darkslategray;
+	font-size:16px;
+	font-weight:800;
+}
+
+.comments h7 {
+	font-size: 20px;
+	font-weight: 500;
+}
+
+.comments h8 {
+	font-size: 14px;
+	font-weight: 500;
+	color:darkorange;
+}
+
+.comments h3 {
+	font-size: 24px;
+	font-weight: 500;
+	color: darkslategray;
+}
